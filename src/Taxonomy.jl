@@ -27,6 +27,8 @@ module Taxonomy
     include("taxons/taxon.jl")
     export GFactor
     include("taxons/cfa.jl")
+    export LGCM
+    include("taxons/lgcm.jl")
 
     import UUIDs
     export generate_id
